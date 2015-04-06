@@ -1,0 +1,36 @@
+simpletutorials => http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
+
+In scala =>
+
+"object" is a singleton. All static methods.
+
+"type" is an Alias. The type system just replaces the alias with the actual type when type-checking is performed.
+Allows shorthand
+
+"=>" for anonymous functions. Maps something to something
+
+"case" is for case classes. Which represents between an algebraic expression and object orientation classes.
+
+"Unit" is like void in java.
+
+"val" cannot be changed. Immutable, read only.
+
+"var" can be changed. mutable, read-write.
+
+When you assign an initial value to a variable, the Scala compiler can figure out the type of the variable based
+on the value assigned to it. This is called variable type inference.
+
+"Any" which is used above is the type which is a super-type of all other types in Scala. More general version of
+java Object.
+
+traits are interfaces which can also contain code.
+In Scala, when a class inherits from a trait, it implements that trait’s interface, and inherits all the code
+contained in the trait.
+
+"isInstanceOf", corresponds to Java’s instanceof operator, and returns true if and only if the object on which
+ it is applied is an instance of the given type.
+
+"asInstanceOf", corresponds to Java’s cast operator: if the object is an instance of the given type, it is viewed
+as such, otherwise a ClassCastException is thrown.
+
+"sys.error" throws a runtimeException
